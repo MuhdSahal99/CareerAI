@@ -1,16 +1,12 @@
-[
-theme
-]
+[theme]
 primaryColor = "#FF4B4B"
 backgroundColor = "#FFFFFF"
 textColor = "#31333F"
 secondaryBackgroundColor = "#F0F2F6"
 font = "monospace"
-[
-server
-]
+
+[server]
 enableCORS = false
-[
-global
-]
+
+[global]
 developmentMode = false
