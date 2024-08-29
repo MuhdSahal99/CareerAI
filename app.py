@@ -25,7 +25,7 @@ def main():
             st.sidebar.warning("Logo file not found. Please add logo.png to the assets folder.")
 
         # Add sidebar content
-        st.sidebar.title("Job Matcher")
+        st.sidebar.title("TalentAlign")
         page = st.sidebar.radio("Select Page", ["Candidate", "Employer"])
 
     with col2:
