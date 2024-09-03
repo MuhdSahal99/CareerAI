@@ -14,7 +14,7 @@ class JobMatcher:
             self.job_embeddings = self.model.encode(self.jobs_df['processed_description'].tolist())
 
         # Initialize Gemini
-        genai.configure(api_key='AIzaSyA2Yh9iY_NxpWIBOjSGjLiT2mfXapPuM4E')
+        genai.configure(api_key='')
         self.gemini = genai.GenerativeModel('gemini-pro')
 
     def process_resume(self, resume_file):
